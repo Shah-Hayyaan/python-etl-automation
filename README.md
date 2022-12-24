@@ -1,2 +1,3 @@
-# python etl automation
- 
+# python etl automation with apache airflow
+
+Here we are building & automating our Python ETL with Apache Airflow. We'll use the TaskFlow API introduced in Airflow 2.0. The TaskFlow API makes it much easier to author clean ETL code without extra boilerplate, by using the @task decorator. Airflow organizes our workflows as Directed Acyclic Graphs (DAGs) composed of tasks.So weWe'll use SQL Server’s AdventureWorks database as a source and load data in PostgreSQL with Python. We'll be focusing on Product's hierarchy to enhance our initial data pipeline get a complete overview of the extract, load and transform process.
